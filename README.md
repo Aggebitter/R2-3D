@@ -8,7 +8,7 @@ electronics and pure mechanics.
 
 
 History:
-A few years ago I put together a #d printer kit from Welleman. 
+A few years ago I put together a 3d printer kit from Welleman. 
 It was their K8200 and I call it "put together" because it was like building Lego or Mecchano for us born back in the 70s.
 I had a lot of fun with it and the complete build took about 24 hours from opening the box to the first print out.
 
