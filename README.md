@@ -47,5 +47,5 @@ electronics in the heated volym.
 
 This Git is my part on delivering back stuff to the comunity of open source and open designs 
 But it is still "in the making" My prototype printer works and it's time to release it
-
+My first dry run https://youtu.be/AdaIRemX2_0
 // AGGE
