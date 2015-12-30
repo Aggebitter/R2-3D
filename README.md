@@ -1,5 +1,5 @@
 # R2-3D
-my home brewed coreXY 3d printer
+My home brewed coreXY 3d printer
 The name "R2-3D" is a tribute to R2-D2 and his creator George Lucas who made me just love things that moves by software, 
 electronics and pure mechanics.
 
