@@ -5,23 +5,18 @@
 
 
  module AluProfile(Lenght){
-
+color( "Gainsboro", 1 ) {
 $fn=50;     
-     
+    
 union () {     
 RealLenght = Lenght / 2 ; // bug in OpenScad ?
-
-
-difference (){    
-    union (){    // the Aluminium base
-        translate ([1,1,0]){
-            color( "Gainsboro", 1 ) {
-            minkowski(){
+    difference (){    
+        union (){    // the Aluminium base         
+           translate ([1,1,0]){ 
+               minkowski(){
                 cube([18,18,RealLenght]);
                 cylinder(r=1,h=RealLenght);
-                }
-            }
-            }
+                }}     
         }
 // Difference starts here 
    translate ([10,10,0]){   // center hole
@@ -117,4 +112,8 @@ rotate ([0,0,90]) {
 
 
   } 
-}}
+}}}
+
+
+
+//AluProfile(10);

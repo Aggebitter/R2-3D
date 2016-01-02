@@ -1,7 +1,9 @@
 /*
 Stepper steel mount
+NEMA 17 Stepper
 */
-module StepperMount (){
+$fn=50;
+module StepperMount (){     //Stepper steel mount 
 color( "Black", 1 ) {
 union (){
 difference (){
@@ -50,17 +52,91 @@ difference (){
 }
 }
 }
-// Place the stepper mounts
-translate ([13,320 ,56]) rotate ([0,180,180])
-StepperMount ();
-
-translate ([377,320 ,56]) rotate ([0,180,180])
-StepperMount ();
-
-//  the CoreXY drive shafts
-color( "Silver", 1 ) {
-translate ([38,289 ,66]) rotate ([0,0,180])
-cylinder(d=8,h=270, center = false);
-translate ([402,289 ,66]) rotate ([0,0,180])
-cylinder(d=8,h=270, center = false);
+module NEMA17 (){           //NEMA 17 Stepper
+translate ([25,31,3.01]) rotate ([0,180,0]) {
+$fn=50;
+difference (){
+union (){
+translate ([0,0,-23]){
+color( "Black", 1 ) 
+difference (){
+cube([42,42,30], center = true) ;
+      union (){
+        difference (){
+            rotate ([0,0,45])
+            cube([60,60,50], center = true) ;
+            rotate ([0,0,45])
+            cube([50,50,52], center = true) ;
+}}  
+    
 }
+
+color( "Gainsboro", 1 ) 
+difference (){
+    union (){
+        translate ([0,0,19])
+        color( "Gainsboro", 1 ) 
+        cube([42,42,8], center = true) ;
+        translate ([0,0,-19.5])
+        cube([42,42,9], center = true) ;
+}
+    union (){
+        difference (){
+            rotate ([0,0,45])
+            cube([60,60,50], center = true) ;
+            rotate ([0,0,45])
+            cube([53.5,53.5,52], center = true) ;
+}}}
+}
+
+    color( "Gainsboro", 1 ) 
+    cylinder (d=22, h=2, center = false);
+    color( "LightSlateGray", 1 ) 
+    cylinder (d=5, h=24, center = false);
+}
+translate ([-15.5,-15.5,-10])
+cylinder (d=3, h=24, center = false);
+translate ([15.5,15.5,-10])
+cylinder (d=3, h=24, center = false);
+translate ([-15.5,15.5,-10])
+cylinder (d=3, h=24, center = false);
+translate ([15.5,-15.5,-10])
+cylinder (d=3, h=24, center = false);
+
+
+
+}
+
+
+}}
+
+
+// Place the stepper mounts
+    translate ([13,320,56]) rotate ([0,180,180]){
+    StepperMount ();
+    NEMA17 ();}
+    translate ([377,320,56]) rotate ([0,180,180]){
+    StepperMount ();
+    NEMA17 ();}
+    translate ([150,22,53.5]) rotate ([0,180,0]){ 
+    // 2mm space for tension adjusting plate
+    StepperMount ();
+    NEMA17 ();}
+    
+    
+    
+    
+//  the CoreXY drive shafts and copplers
+  color( "Silver", 1 ) {
+    translate ([38,289,80]) rotate ([0,0,180])
+    cylinder(d=8,h=270, center = false);
+    translate ([402,289 ,80]) rotate ([0,0,180])
+    cylinder(d=8,h=270, center = false);
+        
+ color( "Silver", 1 ) {
+    translate ([38,289 ,60]) rotate ([0,0,180])
+    cylinder(d=18,h=25, center = false);
+    translate ([402,289 ,60]) rotate ([0,0,180])
+    cylinder(d=18,h=25, center = false);   
+}}
+

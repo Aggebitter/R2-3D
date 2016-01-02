@@ -1,16 +1,17 @@
 /*
- Modeus 20mm corner mount
+ motedis 20x20mm corner mount, www.motedis.com
 */
-
-module Cornermount (){
+use <BultsNuts.scad>
+module CornerMount(Bults){
 $fn=50;
+color( "DarkGray", 1 ) {    
     union (){
  difference (){
      
     
-    color( "DarkGray", 1 ) {
+    
      cube ([39,39,18]) ; 
-}
+
     
     
     
@@ -65,161 +66,27 @@ $fn=50;
     cylinder(h = 20, d = 5,  center = false);
      }}}     
  }
-    
-    
+  
 }
+   
+}
+}
+if (Bults) {
 
-
-// bults
-       translate ([12,5,9]){
-           rotate ([90,0,0]){
-   difference (){ 
-     
-     union (){
-     color( "Silver", 1 ) {
-     cylinder(h = 3, d = 8,  center = false); 
-     cylinder(h = 12, d = 4,  center = false);          
-    }}
-    translate ([0,0,-2]){
-    cylinder(h = 4, d = 5, $fn=6, center = false);
-    
-    }
-    }
-    
-    }}
-           translate ([30,5,9]){
-           rotate ([90,0,0]){
-   difference (){ 
-     
-     union (){
-     color( "Silver", 1 ) {
-     cylinder(h = 3, d = 8,  center = false); 
-     cylinder(h = 12, d = 4,  center = false);          
-    }}
-    translate ([0,0,-2]){
-    cylinder(h = 4, d = 5, $fn=6, center = false);
-    
-    }
-    }   
-    }}
-           translate ([5,30,9]){
-           rotate ([270,0,90]){
-   difference (){ 
-     
-     union (){
-     color( "Silver", 1 ) {
-     cylinder(h = 3, d = 8,  center = false); 
-     cylinder(h = 12, d = 4,  center = false);          
-    }}
-    translate ([0,0,-2]){
-    cylinder(h = 4, d = 5, $fn=6, center = false);
-    
-    }
-    }         
-    }}
-           translate ([5,12,9]){
-           rotate ([270,0,90]){
-   difference (){ 
-     
-     union (){
-     color( "Silver", 1 ) {
-     cylinder(h = 3, d = 8,  center = false); 
-     cylinder(h = 12, d = 4,  center = false);          
-    }}
-    translate ([0,0,-2]){
-    cylinder(h = 4, d = 5, $fn=6, center = false);
-    
-    }
-    }   
-    }}
-    
-    
+    translate ([2,12,9])rotate ([270,0,90])
+    M4inv (8);
+    translate ([2,30,9])rotate ([270,0,90])
+    M4inv (8);
+    translate ([30,2,9])rotate ([90,0,0])
+    M4inv (8);
+    translate ([12,2,9])rotate ([90,0,0])
+    M4inv (8);
 }
 }
 
-/*
-placing mounts
-*/
-translate ([20,1,35]) {
-rotate ([90,270,180]){
-Cornermount ();
-}}
-translate ([20,1,105]) {
-rotate ([90,270,180]){
-Cornermount ();
-}}
-
-translate ([420,1,35]) {
-rotate ([90,0,180]){
-Cornermount ();
-}}
-translate ([420,1,105]) {
-rotate ([90,0,180]){
-Cornermount ();
-}}
-
-translate ([20,1,300]) {
-rotate ([90,180,180]){
-Cornermount ();
-}}
-translate ([420,1,300]) {
-rotate ([90,90,180]){
-Cornermount ();
-}}
-
-translate ([20,339,35]) {
-rotate ([90,0,0]){
-Cornermount ();
-}}
-
-translate ([420,339,35]) {
-rotate ([90,270,0]){
-Cornermount ();
-}}
 
 
-translate ([20,339,300]) {
-rotate ([90,90,0]){
-Cornermount ();
-}}
-translate ([420,339,300]) {
-rotate ([90,180,0]){
-Cornermount ();
-}}
+CornerMount (1);
 
 
-translate ([1,20,105]) {
-rotate ([90,0,90]){
-Cornermount ();
-}}
-translate ([1,320,300]) {
-rotate ([270,0,270]){
-Cornermount ();
-}}
 
-translate ([1,20,300]) {
-rotate ([90,90,90]){
-Cornermount ();
-}}
-translate ([1,320,105]) {
-rotate ([90,270,90]){
-Cornermount ();
-}}
-
-
-translate ([439,319,300]) {
-rotate ([270,90,90]){
-Cornermount ();
-}}
-translate ([439,20,105]) {
-rotate ([270,270,90]){
-Cornermount ();
-}}
-translate ([439,20,300]) {
-rotate ([270,0,90]){
-Cornermount ();
-}}
-translate ([439,319,105]) {
-rotate ([270,180,90]){
-Cornermount ();
-}}

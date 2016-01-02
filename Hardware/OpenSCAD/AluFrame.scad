@@ -1,6 +1,7 @@
-include <20x20_Profile.scad>
-
-module AluFrame (){
+use <20x20_Profile.scad>
+use <Mountplates.scad>
+use <CornerMount.scad>
+module AluFrame (){             // Places all profiles
 
 // frame vertical
     AluProfile(410);            // South West corner
@@ -74,5 +75,116 @@ module AluFrame (){
 
 }
 
+module AluFrameMountPlates (){  // Mount plates for profiles
+translate ([0,20,410]) {
+    rotate ([270,0,0]) {
+MountPlate (1);
+    }}
+translate ([440,20,410]) {
+    rotate ([270,90,0]) {
+MountPlate (1);
+    }}    
+    
+translate ([0,320,410]) {
+    rotate ([90,90,0]) {
+MountPlate (1);
+    }}
+    translate ([440,320,410]) {
+    rotate ([90,180,0]) {
+MountPlate (1);
+    }}
+}
+module AluFrameMountCorners (){ // Mount Corner Mounts
+/*
+placing mounts
+*/
+translate ([20,1,35]) {
+rotate ([90,270,180]){
+CornerMount (1);
+}}
+translate ([20,1,105]) {
+rotate ([90,270,180]){
+CornerMount (1);
+}}
+
+translate ([420,1,35]) {
+rotate ([90,0,180]){
+CornerMount (1);
+}}
+translate ([420,1,105]) {
+rotate ([90,0,180]){
+CornerMount (1);
+}}
+
+translate ([20,1,300]) {
+rotate ([90,180,180]){
+CornerMount (1);
+}}
+translate ([420,1,300]) {
+rotate ([90,90,180]){
+CornerMount (1);
+}}
+
+translate ([20,339,35]) {
+rotate ([90,0,0]){
+CornerMount (1);
+}}
+
+translate ([420,339,35]) {
+rotate ([90,270,0]){
+CornerMount (1);
+}}
+
+
+translate ([20,339,300]) {
+rotate ([90,90,0]){
+CornerMount (1);
+}}
+translate ([420,339,300]) {
+rotate ([90,180,0]){
+CornerMount (1);
+}}
+
+
+translate ([1,20,105]) {
+rotate ([90,0,90]){
+CornerMount ();
+}}
+translate ([1,320,300]) {
+rotate ([270,0,270]){
+CornerMount (1);
+}}
+
+translate ([1,20,300]) {
+rotate ([90,90,90]){
+CornerMount (1);
+}}
+translate ([1,320,105]) {
+rotate ([90,270,90]){
+CornerMount (1);
+}}
+
+
+translate ([439,319,300]) {
+rotate ([270,90,90]){
+CornerMount (1);
+}}
+translate ([439,20,105]) {
+rotate ([270,270,90]){
+CornerMount (1);
+}}
+translate ([439,20,300]) {
+rotate ([270,0,90]){
+CornerMount ();
+}}
+translate ([439,319,105]) {
+rotate ([270,180,90]){
+CornerMount (1);
+}}
+}
 
 AluFrame ();
+AluFrameMountCorners ();
+AluFrameMountPlates ();
+
+
