@@ -129,7 +129,7 @@ Optical Endstop Switch
 RepRap Mendel Prusa modell 3pcs
 
 
-##--------------------------  ELECTRONICS R2-3D specific  -----------------------------
+###--------------------------  ELECTRONICS R2-3D specific  -----------------------------
 
 Supporting processor:
 Arduino Nano
