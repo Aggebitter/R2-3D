@@ -1,5 +1,5 @@
 
-------------------------  ALUMINIUM PROFILES and mounts -----------------------------
+###------------------------  ALUMINIUM PROFILES and mounts -----------------------------
 
 From www.motedis.com (www.motedis.se, for Swedish orders)
  
@@ -32,7 +32,7 @@ Aluminium Rod 8mm
 300mm 2pcs (for 300mm ballscrews, if longer ballskrews are used, add the difference in length)
 
 
----------------------------------  MECHANICS ----------------------------------------
+###---------------------------------  MECHANICS ----------------------------------------
 
 Ballskrew end maschined 
 SFU1204 300mm 3pcs
@@ -96,7 +96,8 @@ SG15 5x17x8mm U Groove Sealed Line Track Guide Pulley Rail Ball Bearing (for fil
 6 pcs
 
 
------------------------------  ELECTRONICS common -----------------------------------
+###-----------------------------  ELECTRONICS common -----------------------------------
+
 
 Arduino Mega 2560 
 RAMPS v1.4
@@ -128,7 +129,8 @@ Optical Endstop Switch
 RepRap Mendel Prusa modell 3pcs
 
 
----------------------------  ELECTRONICS R2-3D specific  ----------------------------
+##--------------------------  ELECTRONICS R2-3D specific  -----------------------------
+
 Supporting processor:
 Arduino Nano
 Expansion-Board-Terminal-Adapter-DIY-Kits-for-Arduino-NANO-IO-Shield-V1-0-S
@@ -136,12 +138,14 @@ Expansion-Board-Terminal-Adapter-DIY-Kits-for-Arduino-NANO-IO-Shield-V1-0-S
 5V MAX7219 8-Digit Red LED Display Module 7 Segment (for nice view of current temeratures)
 2 pcs 
 
-Addons ;-)
+##Addons ;-)
+
 U-disk audio player TF SD card voice module MP3 Sound WTV020-SD-16P
 LM386 Audio Amplifier Module Board 5V-12V (sound is great;)
 Loudspeaker 8Ω 0.25W 8ohm Small Trumpet 29mm
 
 Printer head lights:
+
 Adafruit NeoPixel Ring 24 x WS2812 5050 RGB LED (not sure if I am going to use it yet)
 
 WS2801 2801 Dream Color 5050 RGB LED strip
