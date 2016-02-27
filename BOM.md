@@ -22,9 +22,9 @@ Bracket 20x40 I-Type slot 5 www.motedis.com (90 degres mount)
 
 T-Nut with spring ball, without guidance I-Type slot 5
 
-100 (one bag)
+200 (two bags) the exact amount not finish yet
 
-Node plate nickel plated aluminum 60x60
+Node plate nickel plated aluminum 60x60 (New home made CAD files soon on GitHub)
 
 4 pcs
 
@@ -65,7 +65,8 @@ KP08 10pcs
 
 Linear mechanics:
 Liner Rail Linear Shaft 10mm diameter
-300mm 4pcs
+300mm 2pcs
+330mm 2pcs
 
 Linear Rod Rail Shaft Support
 SHF10 10mm 4pcs
