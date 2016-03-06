@@ -96,6 +96,41 @@ Stepper MotorShaft 5x8 mm Flexible Coupling
 SG15 5x17x8mm U Groove Sealed Line Track Guide Pulley Rail Ball Bearing (for filament mounting)
 6 pcs
 
+###Bolts
+
+Size Lenght amount DIN-standard Standard (Use)
+
+M4 10 10 DIN 7984 (Steel Mounting Bracket For stepper motor)
+
+M4 14 20 DIN 7984 Bore Ball Bearing (KP08)
+
+M4 16 6 DIN 7984 Z-plane
+
+M5 8 92 DIN 7984 (Bracket 20x40 I-Type slot 5)
+
+M5 12 8 DIN 7984 Open Linear Bearing, SHF10
+
+M5 14 8 DIN 7984 Linear Rail Shaft Guide (SK10)
+
+M5 25 2 x
+
+M5 30 1 y
+
+M5 35 1 Extruderplate
+
+M6 16 8 xy, Open Linear Bearing (SBR10UU)
+
+
+T-nut:
+M4 36 T-slot spring nut, for I-typ T-slot 5mm
+
+M5 112 T-slot spring nut, for I-typ T-slot 5mm
+
+Spring washer:
+
+M4 36
+
+M5 112
 
 ###-----------------------------  ELECTRONICS common -----------------------------------
 
