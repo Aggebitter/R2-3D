@@ -119,12 +119,12 @@ M5 35 1 Extruderplate
 M6 16 8 xy, Open Linear Bearing (SBR10UU)
 
 
-#T-nut:
+#T-nut
 M4 36 T-slot spring nut, for I-typ T-slot 5mm
 
 M5 116 T-slot spring nut, for I-typ T-slot 5mm
 
-#Spring washer:
+#Spring washer
 
 M4 36
 
