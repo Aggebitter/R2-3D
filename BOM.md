@@ -86,12 +86,6 @@ Alloy Steel Mounting Bracket For 42mm NEMA17 Stepper Motor With Screws 5x5x5cm
 Stepper MotorShaft 5x8 mm Flexible Coupling
 2 pcs
 
-20T 8mm GT2 Timing Drive Pulley
-5pcs (for CoreXY shafts x2 and ballscrews x3)
-
-20T 5mm GT2 Timing Drive Pulley
-1pcs (Z-axis)
-
 
 SG15 5x17x8mm U Groove Sealed Line Track Guide Pulley Rail Ball Bearing (for filament mounting)
 6 pcs
@@ -106,11 +100,15 @@ M4 14 20 DIN 7984 Bore Ball Bearing (KP08)
 
 M4 16 6 DIN 7984 Z-plane
 
-M5 8 92 DIN 7984 (Bracket 20x40 I-Type slot 5)
+M5 8 93 DIN 7984 (Bracket 20x40 I-Type slot 5 and Optical Endstop Switch)
+
+M5 10 4 DIN 7984 (For Optical Endstop Switch on SBR10UU)
 
 M5 12 8 DIN 7984 Open Linear Bearing, SHF10
 
 M5 14 8 DIN 7984 Linear Rail Shaft Guide (SK10)
+
+M5 16 3 DIN 7984 (For Ball Bearing for Filament)
 
 M5 25 2 x
 
@@ -124,13 +122,13 @@ M6 16 8 xy, Open Linear Bearing (SBR10UU)
 T-nut:
 M4 36 T-slot spring nut, for I-typ T-slot 5mm
 
-M5 112 T-slot spring nut, for I-typ T-slot 5mm
+M5 116 T-slot spring nut, for I-typ T-slot 5mm
 
 Spring washer:
 
 M4 36
 
-M5 112
+M5 116
 
 ###-----------------------------  ELECTRONICS common -----------------------------------
 
