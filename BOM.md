@@ -43,11 +43,11 @@ SFU1204 300mm 3pcs
 20T 5mm GT2 Timing Drive Pulley
 1pcs (Z-axis)
 
-Stepper MotorShaft 5x8 mm Flexible Coupling
-2 pcs
-
 20T 8mm GT2 Timing Drive Pulley
 5pcs (for CoreXY shafts x2 and ballscrews x3)
+
+Stepper MotorShaft 5x8 mm Flexible Coupling
+2 pcs
 
 GT2 timing belt
 5m (2.5m for the printer and one spare)
@@ -90,7 +90,7 @@ Stepper MotorShaft 5x8 mm Flexible Coupling
 SG15 5x17x8mm U Groove Sealed Line Track Guide Pulley Rail Ball Bearing (for filament mounting)
 6 pcs
 
-###Bolts
+##Bolts
 
 Size Lenght amount DIN-standard Standard (Use)
 
@@ -119,12 +119,12 @@ M5 35 1 Extruderplate
 M6 16 8 xy, Open Linear Bearing (SBR10UU)
 
 
-T-nut:
+#T-nut:
 M4 36 T-slot spring nut, for I-typ T-slot 5mm
 
 M5 116 T-slot spring nut, for I-typ T-slot 5mm
 
-Spring washer:
+#Spring washer:
 
 M4 36
 
